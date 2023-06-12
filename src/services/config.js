@@ -4,7 +4,7 @@
 import { initializeApp } from "firebase/app";
 //servicio de almacenamiento que tiene la app de google. Se genera db dinámica para consultar y  subir las órdenes de compra
 //obtener una instancia
-import {getFirestore} from "firebase/firestone"; 
+import {getFirestore} from "firebase/firestore"; 
 
 
 //trabajamos con un objeto con toda la info de la cuenta. Incluye la key personal de acceso a la DB
